@@ -1,0 +1,13 @@
+{
+  "name": "hackFn",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/Digambaran/hackFn",
+    "ssh": "git@github.com:Digambaran/hackFn.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
